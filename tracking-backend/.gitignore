@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (uv / venv)
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets (NEVER push real API keys or DB credentials)
+.env
+.env.*
+!.env.example
+
+# Build & distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor & OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Docker volume bind mounts (if any)
+pgdata/
+redisdata/
+
+# Logs & test caches
+*.log
+.pytest_cache/
+.ruff_cache/
+.coverage
