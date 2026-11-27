@@ -1,0 +1,1 @@
+"""Shipment service domain services package."""
